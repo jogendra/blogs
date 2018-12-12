@@ -4,6 +4,7 @@ baseurl:      "/blogs"
 paginate:     1
 locale:       "en"
 permalink: /:title/
+google_analytics: UA-108089911-1
 
 # About/contact
 author:

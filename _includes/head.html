@@ -8,6 +8,17 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/cayman.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
+  <!-- GOOGLE ANALYTICS -->
+  {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <!-- /GOOGLE ANALYTICS -->
   <!-- ****** favicons ****** -->
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">

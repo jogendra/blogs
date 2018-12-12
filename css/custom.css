@@ -15,7 +15,35 @@
 }
 .blog-foot {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+.top-btn {
+  display: initial;
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 768px) {
+  .blog-intro {
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+  }
+  .blog-foot {
+    flex-direction: column;
+    margin-top: 1em;
+  }
+  .blog-foot p {
+    margin: 0.2em;
+    font-size: 1em;
+  }
+  .blog-main-title, .main-content {
+    font-size: 0.9em;
+  }
+  .top-btn {
+    display: none;
+  }
 }
 
 .main-content :first-child{
