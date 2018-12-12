@@ -3,6 +3,7 @@ title:        Blogs by Jogendra
 baseurl:      "/blogs"
 paginate:     1
 locale:       "en"
+permalink: /:title/
 
 # About/contact
 author:
