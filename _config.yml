@@ -1,6 +1,5 @@
 # Setup
 title:        Blogs by Jogendra
-tagline:      Blogs for https://jogendra.github.io
 baseurl:      "/blogs"
 paginate:     1
 locale:       "en"
