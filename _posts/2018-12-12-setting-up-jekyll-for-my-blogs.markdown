@@ -1,7 +1,9 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
-date:   2016-02-12 17:50:00
+title:  "Setting up Jekyll for my Blogs"
+type: "Blog"
+tagline: "by Jogendra Kumar"
+date:   2018-12-12 01:50:00
 categories: main
 ---
 
