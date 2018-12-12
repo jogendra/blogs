@@ -25,3 +25,50 @@
 .blog-main-title {
   font-size: 1.5em;
 }
+.page-divider {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #ddd;
+  height: 8px;
+  margin-top: 1em;
+}
+.page-divider .one {
+  position: relative;
+  top: -9px;
+  display: block;
+  background: #ddd;
+  width: 18px;
+  height: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+.page-divider .two {
+    position: relative;
+    top: -26px;
+    display: block;
+    background: #30757A;
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.alter-devider {
+  margin-bottom: 2em;
+}
+.alter-devider .two {
+  background: #ffffff;
+}
+.blog-upper-title {
+  margin: auto;
+  display: table;
+}
+.center-footer {
+  text-align: center;
+}
+.footer-btns {
+  padding: 0.5em;
+}
